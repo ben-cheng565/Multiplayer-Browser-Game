@@ -1,0 +1,72 @@
+body {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.homePage{
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: cadetblue;
+
+}
+.joinGame{
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    padding-top: 20%;
+    margin-left: 20%;
+}
+.startGame{
+    padding-top: 30px;
+    margin-left: 20%;
+
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
+
+.joinGame > label > input {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 20px;
+}
+
+.joinGame > button {
+    width: 120px;
+    height: 28px;
+    border-width: 0px;
+    border-radius: 3px;
+    background: #1E90FF;
+    cursor: pointer;
+    outline: none;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+
+.startGame > button {
+    width: 120px;
+    height: 28px;
+    border-width: 0px;
+    border-radius: 3px;
+    background: limegreen;
+    cursor: pointer;
+    outline: none;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+
+.startGame > label > input {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 85px;
+    height: 24px;
+}
